@@ -1,0 +1,14 @@
+@import './variables.scss';
+
+.container-nav{
+  // display: flex;
+  // flex-direction: row;
+  // flex-wrap: nowrap;
+  background: map-get($colors, bluelight);
+  width: 100%;
+  height: 100px;
+
+  &__item{
+    color: map-get($colors , blueDark );
+  }
+}

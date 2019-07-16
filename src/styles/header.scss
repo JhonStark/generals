@@ -6,7 +6,13 @@
   // flex-wrap: nowrap;
   background: map-get($colors, bluelight);
   width: 100%;
-  height: 100px;
+  font-family: 'Lobster', cursive;
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(12,45,72,0.73)), url('../images/home.jpg');
+  background-repeat: no-repeat;
+  background-color: map-get($colors, blueDark );
+  height: 600px;
+  background-size: cover;
+  
 
   &__item{
     color: map-get($colors , blueDark );

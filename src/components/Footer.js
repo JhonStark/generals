@@ -1,14 +1,16 @@
 import React from 'react'
 import '../styles/Footer.scss'
+import Facebook  from './facebook'
+
 
 function Footer () {
   return (
     <div>
       <ul> Contactos
         <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li><Facebook  /></li>
+        <li>Instagram</li>
+        <li>Twitter</li>
         <li>Email: generalservices@gmail.com</li>
         <li>WhatsApp: 3008626756</li>
       </ul>

@@ -1,0 +1,16 @@
+.container{
+
+  .container-menu{
+    display: none;
+  }
+
+  .container-main{
+    background: rgb(177,212,224);
+background: linear-gradient(0deg, rgba(177,212,224,1) 0%, rgba(255,255,255,1) 100%);
+    &__h2{
+      display: none;
+    }
+  }
+
+}
+

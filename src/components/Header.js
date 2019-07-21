@@ -23,6 +23,11 @@ function Header () {
             <li className="container-nav__item"><Link to="/about/" className="container-nav__item--register">Ingresar</Link></li>
             <li className="container-nav__item--service">Selecciona el Servicio</li>
         </ul>
+        <div className="container-alert">
+          <div className="container-alert__button">
+            <p className="container-alert__button--text">Selecciona el Servicio que quieres</p>
+            </div>
+        </div>
       </nav>
     </div>
     </Router>

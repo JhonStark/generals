@@ -3,24 +3,24 @@ import '../styles/services.scss'
 
 function Services () {
   return (
-    <div>
-      <nav>
+    <div className="container">
+      <nav className="container-menu">
         <ul>
-          <li>Quienes Somos</li>
-          <li>Servicios</li>
-          <li>Pagos</li>
-          <li>Planes</li>
-          <li>Trabaja con Nosotros</li>
+          <li className="container-menu__item">Quienes Somos</li>
+          <li className="container-menu__item">Servicios</li>
+          <li className="container-menu__item">Pagos</li>
+          <li className="container-menu__item">Planes</li>
+          <li className="container-menu__item">Trabaja con Nosotros</li>
         </ul>
       </nav>
 
-      <main>
-        <h2>Trabaja con Nosotros</h2>
+      <main className="container-main">
+        <h2 className="container-main__h2">Trabaja con Nosotros</h2>
         <ul>
-          <li>Doméstico Mensual <span>v</span></li>
-          <li>Doméstico día <span>v</span></li>
-          <li>Oficina día <span>v</span></li>
-          <li>Planchado <span>v</span></li>
+          <li className="container-main__item">Doméstico Mensual <span>v</span></li>
+          <li className="container-main__item">Doméstico día <span>v</span></li>
+          <li className="container-main__item">Oficina día <span>v</span></li>
+          <li className="container-main__item">Planchado <span>v</span></li>
         </ul>
 
         <div className="show-card">

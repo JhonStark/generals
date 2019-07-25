@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/header.scss'
 import logo from '../images/logo.png'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
-
+import Icon from './ico'
 
 function Header () {
   return (
@@ -25,7 +25,8 @@ function Header () {
         </ul>
         <div className="container-alert">
           <div className="container-alert__button">
-            <p className="container-alert__button--text">Selecciona el Servicio que quieres</p>
+            <p className="container-alert__button--text">
+              <Icon/> Selecciona el Servicio que quieres</p>
             </div>
         </div>
       </nav>

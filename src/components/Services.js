@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/services.scss'
+import Select from './select-ico'
 
 function Services () {
   return (
@@ -17,10 +18,10 @@ function Services () {
       <main className="container-main">
         <h2 className="container-main__h2">Trabaja con Nosotros</h2>
         <ul>
-          <li className="container-main__item">Doméstico Mensual <span>v</span></li>
-          <li className="container-main__item">Doméstico día <span>v</span></li>
-          <li className="container-main__item">Oficina día <span>v</span></li>
-          <li className="container-main__item">Planchado <span>v</span></li>
+          <li className="container-main__item"><p>Doméstico Mensual <span>Ver más</span></p><Select className="container-main__item--selection" /></li>
+          <li className="container-main__item"><p>Doméstico día <span>Ver más</span></p><Select /></li>
+          <li className="container-main__item"><p>Oficina día <span>Ver más</span></p><Select /></li>
+          <li className="container-main__item"><p>Planchado <span>Ver más</span></p><Select /></li>
         </ul>
 
         <div className="show-card">

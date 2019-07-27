@@ -31,8 +31,9 @@
       p{
         font-family: 'Lobster', cursive;
         width: 100px;
+        display: inline-block;
         font-size: 1.1rem;
-        padding: 10px 20px 0px 20px;
+        padding: 10px 10px 0px 20px;
       }
 
       span{
@@ -41,11 +42,62 @@
       }
 
       &--selection{
-        
-        top: 20px;
+        margin-top: 20px;
+        margin-left: 60px;
       }
     }
   }
 
+  .show-card{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background: map-get($colors, white );
+    color: map-get($colors, blueDark );
+      width: 280px;
+      height: auto;
+      border-radius: 20px;
+      padding: 5%;
+
+    &__title{
+      font-family: 'Lobster', cursive;
+      color: map-get($colors, blueDark );
+
+      span{
+        display: none;
+        // font-family: 'Oswald', sans-serif;
+        // font-size: 1rem;
+        // color: #ccc;
+      }
+
+      
+    }
+    &__text{
+      margin-top: 10px;
+      font-weight: 300;
+    }
+
+
+    &__dos{
+      margin-top: 30px;
+      text-align: center;
+
+      &--logo{
+        display: none;
+      }
+
+      &--button{
+        margin-top: 20px;
+        padding: 5px;
+        background: map-get($colors, blueDark );
+        color: map-get($colors, greenIcon );
+        border-radius: 20px;
+      }
+    }
+  }
+
+  .sets{
+    display: none;
+  }
 }
 

@@ -18,16 +18,16 @@ function Services () {
       <main className="container-main">
         <h2 className="container-main__h2">Trabaja con Nosotros</h2>
         <ul>
-          <li className="container-main__item"><p>Doméstico Mensual <span>Ver más</span></p><Select className="container-main__item--selection" /></li>
-          <li className="container-main__item"><p>Doméstico día <span>Ver más</span></p><Select /></li>
-          <li className="container-main__item"><p>Oficina día <span>Ver más</span></p><Select /></li>
-          <li className="container-main__item"><p>Planchado <span>Ver más</span></p><Select /></li>
+          <li className="container-main__item"><p>Doméstico Mensual <br/><span>Ver más</span></p><div className="container-main__item--selection"><Select /></div></li>
+          <li className="container-main__item"><p>Doméstico día <br/><span>Ver más</span></p><div className="container-main__item--selection"><Select /></div></li>
+          <li className="container-main__item"><p>Oficina día <br/><span>Ver más</span></p><div className="container-main__item--selection"><Select /></div></li>
+          <li className="container-main__item"><p>Planchado <br/><span>Ver más</span></p><div className="container-main__item--selection"><Select /></div></li>
         </ul>
 
         <div className="show-card">
           <div className="show-card__uno">
           <h2 className="show-card__title">Doméstico Mensual <span>Características</span></h2>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam 
+          <p className="show-card__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam 
             nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam 
             erat volutpat. <br/> Ut Lorem ipsum dolor sit amet, 
             consectetuer adipiscing elit, sed diam nonummy nibh 
@@ -35,9 +35,9 @@ function Services () {
           </div>
 
           <div className="show-card__dos">
-            <p>2.127.661 - <span>COP</span></p>
-            <div>Logo</div>
-            <div>Contratar el servicio</div>
+            <p><b>$</b>2.127.661 - <span>COP</span></p>
+            <div className="show-card__dos--logo">Logo</div>
+            <div className="show-card__dos--button">Contratar el servicio</div>
           </div>
         </div>
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header'
 import Services from './components/Services'
-import Footer from './components/Footer'
+import Footer2 from './components/Footer2'
 import './App.css';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <header>
         <Header />
         <Services />
-        <Footer />
+        <Footer2 />
       </header>
     </div>
   );

@@ -15,6 +15,15 @@
   .footer-media{
     list-style: none;
     display: flex;
+    &__facebook{
+      margin-right: 10px;
+    }
+    &__instagram{
+      margin-right: 10px;
+    }
+    &__twitter{
+      margin-right: 10px;
+    }
   }
 
   .footer-about{

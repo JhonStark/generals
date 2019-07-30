@@ -1,12 +1,13 @@
 @import './variables.scss';
 
 .container{
-
+  
   .container-menu{
     display: none;
   }
 
   .container-main{
+    padding-bottom: 70px;
     background: rgb(177,212,224);
     background: linear-gradient(0deg, rgba(177,212,224,1) 0%, rgba(255,255,255,1) 100%);
     
@@ -54,7 +55,7 @@
     margin-right: auto;
     background: map-get($colors, white );
     color: map-get($colors, blueDark );
-      width: 280px;
+      width: 220px;
       height: auto;
       border-radius: 20px;
       padding: 5%;

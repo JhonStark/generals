@@ -18,6 +18,6 @@ Facebook.propTypes = {
 }
 
 Facebook.defaultProps = {
-  color: '#D6E3EB',
+  color: '#B1D4E0',
   size: 50
 }

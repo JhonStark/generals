@@ -20,7 +20,7 @@ function Header () {
           </li>
             <li className="container-nav__item--title">GS- General Services</li>
             <li className="container-nav__item"><Link to="/about/" className="container-nav__item--register">Registro</Link></li>
-            <li className="container-nav__item"><Link to="/about/" className="container-nav__item--register">Ingresar</Link></li>
+            <li className="container-nav__item"><Link to="/about/" className="container-nav__item--enter">Ingresar</Link></li>
             <li className="container-nav__item--service">Selecciona el Servicio</li>
         </ul>
         <div className="container-alert">

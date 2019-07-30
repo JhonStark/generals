@@ -1,5 +1,30 @@
-.facebook {
-  // background-image: url('../images/facebook.svg') no-repeat;
-  fill : red;
-  color: red;
+@import './variables.scss';
+
+.footer{
+  color: map-get($colors, blueButton );
+  background: map-get($colors, blueDark );
+  padding: 20px;
+
+  .footer-title{
+    font-family: 'Lobster', cursive;
+    font-weight: 200;
+    margin-bottom: 20px;
+    padding-top: 10px;
+  }
+
+  .footer-media{
+    list-style: none;
+    display: flex;
+  }
+
+  .footer-about{
+    list-style: none;
+    margin-top: 20px;
+  }
+
+  .footer-methods{
+    margin-top: 20px;
+    list-style: none;
+  }
+
 }

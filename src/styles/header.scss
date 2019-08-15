@@ -40,13 +40,14 @@ a{
   height: 600px;
   background-size: cover;
   
-  
-  &__item{
+  &__item{ 
+    align-self: stretch;
     display: inline-flex;
-    flex-direction: row;
+    align-items: center;
     color: map-get($colors , white );
     list-style: none;
     margin-top: 500px;
+
     &--logo{
       display: none;
     }
@@ -56,9 +57,9 @@ a{
     }
     
     &--enter{
+      margin-left: 10px;
       max-width: 100px;
       margin-top: 30px;
-      margin-left: 30px;
       border: 1px solid #ffffff;
       padding: 10px 40px 10px 40px;
       color: map-get($colors, white);
@@ -70,9 +71,8 @@ a{
     }
 
     &--register{
-      margin-left: 10px;
+      margin-left: 50px;
       max-width: 100px;
-      
       border: 1px solid #ffffff;
       padding: 10px 40px 10px 40px;
       color: map-get($colors, white);

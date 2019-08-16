@@ -132,12 +132,15 @@
 
 
     .container-main{
-      background: map-get($colors, blueGradient);
-      
+      // background: map-get($colors, blueGradient);
+      background: linear-gradient(to bottom, rgb(20, 93, 160), rgb(12, 45, 72));
       &__item{
         display: inline-block;
         height: 200px;
         padding: 5px;
+        -webkit-box-shadow: 0px 4px 10px -1px rgb(38, 36, 52);
+        -moz-box-shadow: 0px 4px 10px -1px rgb(38, 36, 52);
+        box-shadow: 0px 4px 10px -1px rgb(38, 36, 52);
         
 
         p{
@@ -154,6 +157,58 @@
           margin-top: 50px;
         }
       }
+    }
+
+    .show-card{
+      width: 90%;
+      padding: 10px;
+      display: flex;
+      -webkit-box-shadow: 0px 4px 10px -1px rgb(38, 36, 52);
+      -moz-box-shadow: 0px 4px 10px -1px rgb(38, 36, 52);
+      box-shadow: 0px 4px 10px -1px rgb(38, 36, 52);
+
+      &__uno{
+        padding: 30px;
+      }
+
+      &__title{
+        font-weight: 500;
+        span{
+          display: block;
+          color: rgb(147, 145, 145);
+          font-family: 'Oswald', sans-serif;
+          font-size: 1rem;
+          font-weight: 400;
+        }
+      }
+
+      &__text{
+        width: 350px;
+      }
+
+    &__dos{
+      display: flex;
+      flex-direction: column;
+      width: 220px;
+      justify-content: space-between;
+      p{
+        align-self: center;
+        font-size: 1.5rem;
+      }
+
+      &--logo{
+        display: inline-flex;
+        align-self: center;
+      }
+      &--button{
+        font-size: 1.2rem;
+        font-weight: 300;
+        margin-bottom: 20px;
+        color: map-get($colors,  greenIcon );
+      }
+    }
+
+
     }
   }
 }

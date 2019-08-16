@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/services.scss'
 import Select from './select-ico'
+import Icon from './ico'
 
 
 function Services () {
@@ -18,10 +19,14 @@ function Services () {
       </nav>
 
       <main className="container-main">
-        <h2 className="container-main__h2">Trabaja con Nosotros</h2>
-        <ul>
+        <p className="leyend"><Icon/> Selecciona el Servicio que quieres</p>
+        <ul className="ul-service">
           
-          <li className="container-main__item"><p>Doméstico Mensual <br/><span>Ver más</span></p><div className="container-main__item--selection"><Select /></div></li>
+          <li className="container-main__item">
+            <p>Doméstico Mensual <br/><span>Ver más</span></p>
+            <div className="container-main__item--selection">
+              <Select />
+            </div></li>
           <li className="container-main__item"><p>Doméstico día <br/><span>Ver más</span></p><div className="container-main__item--selection"><Select /></div></li>
           <li className="container-main__item"><p>Oficina día <br/><span>Ver más</span></p><div className="container-main__item--selection"><Select /></div></li>
           <li className="container-main__item"><p>Planchado <br/><span>Ver más</span></p><div className="container-main__item--selection"><Select /></div></li>

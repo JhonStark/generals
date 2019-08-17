@@ -3,6 +3,7 @@ import '../styles/Footer.scss'
 import Facebook  from './facebook'
 import Instagram from './instagram'
 import Twitter from './twitter'
+import cleanServices from '../images/cleaning.png';
 
 
 function Footer () {
@@ -31,6 +32,13 @@ function Footer () {
         <li className="footer-methods__item">PSE</li>
         <li className="footer-methods__item"> Efectivo</li>
       </ul>
+
+      <div className="img-footer">
+      <img src={cleanServices} />
+      </div>
+      
+        
+      
     </div>
   )
 }

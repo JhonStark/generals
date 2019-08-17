@@ -36,4 +36,16 @@
     list-style: none;
   }
 
+  .img-footer{
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: map-get($breakpoints, medium )) {
+  .footer{
+    background: map-get($colors, bluelight);
+    color: map-get($colors, blueDark);
+    display: flex;
+  }
 }

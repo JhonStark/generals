@@ -50,10 +50,11 @@ function Services () {
         </div>
 
         <div className="sets">
-          <ul> Éste plan le permite contratar
-            <li>Número de días</li>
-            <li>Descarga de Contrato</li>
-            <li>Selección de Empleada</li>
+        <h2 className="subtitle">  Éste plan de Servicio le permite contratar  </h2>
+          <ul className="sets-container"> 
+            <li className="sets-container__item">Número de días</li>
+            <li className="sets-container__item">Descarga de Contrato</li>
+            <li className="sets-container__item">Selección de Empleada</li>
           </ul>
         </div>
       </main>

@@ -210,5 +210,33 @@
 
 
     }
+
+    .sets{
+      display: block;
+      padding: 5%;
+      .subtitle{
+        font-size: 1rem;
+        font-weight: 400;
+        padding: 30px;
+        text-align: center;
+        color:map-get($colors, blueButton);
+      }
+      .sets-container{
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        list-style: none;
+        
+        &__item{
+          justify-content: center;
+          color: map-get($colors, blueDark);
+          background: map-get($colors, blueButton);
+          padding: 6px 30px 6px 30px;
+          border-radius: 20px;
+          font-weight: 400;
+          font-size: 0.9rem;
+        }
+      }
+    }
   }
 }
